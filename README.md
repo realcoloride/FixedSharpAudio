@@ -8,12 +8,6 @@ Supported backends:
 - XAudio2
 - OpenAL
 
-
-# Build status
-
-![Build Status](https://github.com/realcoloride/FixedSharpAudio/workflows/CI/badge.svg?branch=master&event=push)
-![Nuget](https://img.shields.io/nuget/v/FixedSharpAudio)
-
 # Example
 
 SharpAudio provides a low-level interface that wraps audio sources & buffers:
