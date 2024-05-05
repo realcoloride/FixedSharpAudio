@@ -26,7 +26,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SharpAudio.Codec\SharpAudio.Codec.csproj" />
-    <ProjectReference Include="..\SharpAudio\SharpAudio.csproj" />
+    <ProjectReference Include="..\SharpAudio\FixedSharpAudio.csproj" />
   </ItemGroup>
 
 </Project>

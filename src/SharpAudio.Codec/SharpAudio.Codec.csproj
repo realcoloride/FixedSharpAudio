@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SharpAudio\SharpAudio.csproj" />
+    <ProjectReference Include="..\SharpAudio\FixedSharpAudio.csproj" />
   </ItemGroup>
 
 </Project>

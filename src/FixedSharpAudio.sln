@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29613.14
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpAudio", "SharpAudio\SharpAudio.csproj", "{AD19351A-0D24-444D-BD1D-6E341751AD37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FixedSharpAudio", "SharpAudio\FixedSharpAudio.csproj", "{AD19351A-0D24-444D-BD1D-6E341751AD37}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpAudio.Tests", "SharpAudio.Tests\SharpAudio.Tests.csproj", "{6A27A222-8623-47E6-AF82-8A9FFB65B04C}"
 	ProjectSection(ProjectDependencies) = postProject
