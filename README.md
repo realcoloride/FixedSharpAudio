@@ -19,13 +19,13 @@ Supported backends:
 SharpAudio provides a low-level interface that wraps audio sources & buffers:
 ```csharp
     // Create the engine depending on the OS (OpenAL/XAudio2)
-    AudioEngine engine = AudioEngine.CreateDefault();
+    AudioEngine audioEngine = AudioEngine.CreateDefault();
 
     // Create the buffer to allow data from coming in
-    AudioBuffer audioBuffer = engine.CreateBuffer();
+    AudioBuffer audioBuffer = audioEngine.CreateBuffer();
 
     // Create the source for the playback
-    AudioSource audioSource = engine.CreateSource();
+    AudioSource audioSource = audioEngine.CreateSource();
 
     // Play a 1s long sound at 440hz
     AudioFormat format;
@@ -57,8 +57,8 @@ SharpAudio provides a low-level interface that wraps audio sources & buffers:
 A high level interface that can load and play sound files is provided in the SharpAudio.Codec package:
 ```csharp
     // Create the engine depending on the OS (OpenAL/XAudio2)
-    AudioEngine engine = AudioEngine.CreateDefault();
-    SoundStream soundStream = new(File.OpenRead("test.mp3"), engine);
+    AudioEngine audioEngine = AudioEngine.CreateDefault();
+    SoundStream soundStream = new(File.OpenRead("test.mp3"), audioEngine);
 
     soundStream.Volume = 0.5f;
     soundStream.Play();
