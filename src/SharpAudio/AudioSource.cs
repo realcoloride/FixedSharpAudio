@@ -11,7 +11,7 @@ namespace SharpAudio
         protected bool _looping = false;
 
         /// <summary>
-        /// Format for the following source
+        /// Format for the following source. Used only on the OpenAL backend.
         /// </summary>
         public AudioFormat? Format = null;
         

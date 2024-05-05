@@ -5,6 +5,14 @@
     <LangVersion>8.0</LangVersion>
     <DocumentationFile>bin/SharpAudio.xml</DocumentationFile>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Authors>realcoloride, Stephan Vedder</Authors>
+    <Copyright>Copyright 2021-2024 (c) Stephan Vedder, (real)coloride</Copyright>
+    <RepositoryUrl>https://github.com/realcoloride/FixedSharpAudio</RepositoryUrl>
+    <PackageTags>sharpaudio; audio; playback; audio engine; engine; sound;</PackageTags>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <Description>Fork of the agnostic audio library SharpAudio, but more stable.</Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>FixedSharpAudio</Title>
   </PropertyGroup>
 
   <ItemGroup>
