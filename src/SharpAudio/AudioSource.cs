@@ -11,6 +11,11 @@ namespace SharpAudio
         protected bool _looping = false;
 
         /// <summary>
+        /// Format for the following source
+        /// </summary>
+        public AudioFormat? Format = null;
+        
+        /// <summary>
         /// Return the number of buffers that are currently buffered
         /// </summary>
         public abstract int BuffersQueued { get; }
